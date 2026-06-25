@@ -1,5 +1,6 @@
 package prefix_sum;
 
+//Range Sum Query (Immutable)
 public class NumArray {
 
     int[] prefix;
