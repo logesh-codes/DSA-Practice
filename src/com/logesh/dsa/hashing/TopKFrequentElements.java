@@ -5,6 +5,10 @@ import java.util.*;
 public class TopKFrequentElements {
 
     public static int[] topKFrequentBruteForce(int[] nums, int k) {
+
+        //Time Complexity = O(n log n)
+        //Space Complexity = O(n)
+
         HashMap<Integer,Integer> map = new HashMap<>();
 
         for  (int num : nums){
